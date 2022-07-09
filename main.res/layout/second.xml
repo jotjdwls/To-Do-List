@@ -1,0 +1,269 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/base1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edge"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="날짜: "
+            android:textColor="#0000FF" />
+
+        <EditText
+            android:id="@+id/edit_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0000" />
+
+        <TextView
+            android:id="@+id/text_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="년 "
+            android:textColor="#0000FF" />
+
+        <EditText
+            android:id="@+id/edit_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="00" />
+
+        <TextView
+            android:id="@+id/text_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="월 "
+            android:textColor="#0000FF" />
+
+        <EditText
+            android:id="@+id/edit_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="00" />
+
+        <TextView
+            android:id="@+id/text_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일"
+            android:textColor="#0000FF" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="할 일은 최대 7개까지 지정할 수 있습니다.\n추가하기 버튼을 눌러 할 일을 추가하세요."
+        android:textColor="#0000FF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/check1"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:hint="할 일을 입력하세요."
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/check2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:hint="할 일을 입력하세요."
+            android:textSize="17dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/check3"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et3"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:hint="할 일을 입력하세요."
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="추가하기" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/check4"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et4"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:hint="할 일을 입력하세요."
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="추가하기" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/check5"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et5"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:hint="할 일을 입력하세요."
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="추가하기" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/check6"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et6"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:hint="할 일을 입력하세요."
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="추가하기" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/check7"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et7"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:hint="할 일을 입력하세요."
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="추가하기" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edge"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="초기화하기" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="저장하기" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="돌아가기" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

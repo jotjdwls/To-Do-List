@@ -1,0 +1,188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/baseLayout"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="소개 보이기" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이름" />
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="  [이름]버튼을 누르세요."
+            android:textColor="@color/teal_700"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMajor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전공" />
+
+        <TextView
+            android:id="@+id/text_major"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="  [전공]버튼을 누르세요."
+            android:textColor="@color/teal_700"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMbti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MBTI" />
+
+        <TextView
+            android:id="@+id/text_mbti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="  [MBTI]버튼을 누르세요."
+            android:textColor="@color/teal_700"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="즐겨찾는 사이트" />
+
+        <TextView
+            android:id="@+id/text_site"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="  버튼을 꾹 누르세요."
+            android:textColor="@color/teal_700"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/seongjin" />
+
+    <SlidingDrawer
+        android:id="@+id/slidingDrawer1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:content="@+id/content"
+        android:handle="@+id/handle">
+
+        <Button
+            android:id="@+id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="서랍" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/skyblue"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="과제 목록"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btnNewActivity_car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="자동차 클래스" />
+
+            <Button
+                android:id="@+id/btnNewActivity_calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="간단한 계산기" />
+
+            <Button
+                android:id="@+id/btnNewActivity_reser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="예약 앱" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="저의 취미는"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btnNewActivity_plan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="계획 짜기" />
+
+            <Button
+                android:id="@+id/btnNewActivity_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="음악 듣기" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="입니다."
+                android:textSize="15dp" />
+
+        </LinearLayout>
+    </SlidingDrawer>
+</LinearLayout>

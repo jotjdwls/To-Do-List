@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/firstNumEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="첫번째 숫자"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/secondNumEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="두번째 숫자"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/addBtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:text="+"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/subBtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:text="-"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/mulBtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:text="*"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/divBtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:text="/"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultTv"
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:text="결과"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rotation="355"
+        android:text="돌아가기" />
+
+</LinearLayout>

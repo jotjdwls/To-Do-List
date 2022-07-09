@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="자동차 색깔을 정하세요"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="자동차 속도를 정하세요"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonCar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="객체 만들기" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가속 버튼" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="감속 버튼" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:text="결과"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rotation="5"
+        android:text="돌아가기" />
+
+</LinearLayout>
