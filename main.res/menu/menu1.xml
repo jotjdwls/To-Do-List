@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="내가 좋아하는 과일보기">
+        <menu>
+            <item
+                android:id="@+id/itemRich"
+                android:title="리치" />
+            <item
+                android:id="@+id/itemMango"
+                android:title="망고" />
+        </menu>
+    </item>
+
+    <item android:title="우리집 강아지 구경하기">
+        <menu>
+            <item
+                android:id="@+id/subNuri1"
+                android:title="누리 사진보기1" />
+            <item
+                android:id="@+id/subNuri2"
+                android:title="누리 사진보기2" />
+            <item
+                android:id="@+id/subNuri3"
+                android:title="누리 사진보기3" />
+        </menu>
+    </item>
+</menu>

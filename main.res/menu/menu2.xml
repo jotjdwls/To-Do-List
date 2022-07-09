@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemSite1"
+        android:title="SMARTLEAD" />
+    <item
+        android:id="@+id/itemSite2"
+        android:title="YOUTUBE" />
+    <item
+        android:id="@+id/itemSite3"
+        android:title="GOOGLE" />
+    <item
+        android:id="@+id/itemSite4"
+        android:title="MUSINSA" />
+</menu>
